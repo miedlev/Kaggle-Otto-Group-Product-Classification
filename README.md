@@ -2,7 +2,7 @@
 
 
 #### 1. My Conclusion Analysis Report - Jupyter Notebook
-* [TitanicFinal Analysis](https://github.com/miedlev/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/TitanicFinal%20part.ipynb)
+* [Otto-Group-Product Analysis](https://github.com/miedlev/Kaggle-Otto-Group-Product-Classification/blob/master/Otto%20Group%20Product%20Classification.ipynb)
 
 
 #### 2. About Data :
