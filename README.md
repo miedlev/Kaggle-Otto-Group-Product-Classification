@@ -1,35 +1,37 @@
 ### Kaggle Competition | [Otto Group Product Classification Challenge](https://www.kaggle.com/c/otto-group-product-classification-challenge/data)
 
-This is the legendary Titanic ML competition / the best, first challenge for you to dive into ML competitions and familiarize yourself with how the Kaggle platform works.
 
 #### 1. My Conclusion Analysis Report - Jupyter Notebook
 * [TitanicFinal Analysis](https://github.com/miedlev/Kaggle-Titanic-Machine-Learning-from-Disaster/blob/master/TitanicFinal%20part.ipynb)
 
 
 #### 2. About Data :
-* the The training set should be used to build machine learning models. 
-* The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. It is your job to predict these outcomes.
+* Each row corresponds to a single product. There are a total of 93 numerical features, which represent counts of different events. All features have been obfuscated and will not be defined any further.
+* There are nine categories for all products. Each target category represents one of our most important product categories (like fashion, electronics, etc.). The products for the training and testing sets are selected randomly.
 
 #### 3. Process Introduction :
 It is a competition that can be said to be Kaggle's introductory period and conducts a Python-based analysis. My focusins was on 
-1. dummy variable generation
-2. feature engineering
-3. word-based column generation
-4. continuous variables range
-5. tree-based model
+1. Correlation coefficient Analysis 
+2. Feature engineering
+3. Hold-out Validation strategy
+4. Ensemble Model Selection(RandomForestClassifier vs LGBMClassifier)
+5. log_loss metrics / gbdt type
+6. hyperparameter Tuning 
+
 
 #### 4. Dependencies & Tech :
-* [NumPy](http://www.numpy.org/)
 * [IPython](http://ipython.org/)
+* [NumPy](http://www.numpy.org/)
 * [Pandas](http://pandas.pydata.org/)
 * [SciKit-Learn](http://scikit-learn.org/stable/)
 * [SciPy](http://www.scipy.org/)
 * [Seaborn](https://seaborn.pydata.org/)
 * [Matplotlib](http://matplotlib.org/)
 * [StatsModels](http://statsmodels.sourceforge.net/)
+* [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
 
 
-#### 5. Titanic Machine Learning from Disaster
+#### 5. Otto Group Product Classification Challenge
 The Otto Group is one of the world’s biggest e-commerce companies, with subsidiaries in more than 20 countries, including Crate & Barrel (USA), Otto.de (Germany) and 3 Suisses (France). 
 We are selling millions of products worldwide every day, with several thousand products being added to our product line.
 
